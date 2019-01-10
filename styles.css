@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-size: 1.2em;
+}
+#game-zone{
+    background: red;
+    display: flex;
+    color: white;
+}
+#game-zone figure{
+    flex: 1;
+}
+#result{
+    background: rgba(0,0,150,0.5);
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+}
+#score{
+    background: rgba(0,255,0,0.5);
+    border: 1px dashed black;
+}
